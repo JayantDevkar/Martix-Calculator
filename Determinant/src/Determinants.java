@@ -23,13 +23,6 @@ public class Determinants
         }
 //        Testing
         double[][]C = ref(  A,0,1.0);
-//        System.out.println("Matrix after operations:-");
-//        for (double[] doubles : C) {
-//            for (int j = 0; j < C[0].length; j++) {
-//                System.out.print(doubles[j] + " ");
-//            }
-//            System.out.println();
-//        }
 
     }
     private static double[][] ref(double[][] A,int pivot,double d)
